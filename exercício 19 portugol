@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro a , b , troca
+
+		escreva("insira um valor para a variavel A : ")
+		leia(a)
+		limpa()
+
+		escreva("Insira um valor para a variavel B : ")
+		leia(b)
+		limpa()
+
+		troca = a 
+
+		a = b
+
+		b = troca
+
+		escreva("O novo valor de A é : ",a,"\nO novo valor de B é : ",b)
+
+		
+	}
+}
